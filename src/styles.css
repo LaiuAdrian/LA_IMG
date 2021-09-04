@@ -4,6 +4,11 @@
     justify-content: center;
    
 }
+.top_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 .Img_Box{
     position: relative;
     border:2px solid gray;
@@ -41,6 +46,9 @@
     position: absolute;
     left: 50px;
     top: 50px;
+    z-index: 9999;
+    cursor:all-scroll;
+    
 }
 .center_icon{
     display: flex;
@@ -86,10 +94,115 @@ input{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 200px;
+    height: 35px;
+    margin-right: 25px;
 }
 span{
   font-size: 18px;
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.top_box{
+    display: flex;
+}
+.buton_send{
+    width: 200px;
+    height: 80px;
+   background: green;
+}
+.emojiemoji{
+    height: 200px!important;
+}
+.top_box_form{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.text_input{
+    font-size: 20;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+
+/* .text_move{
+-webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+padding: 10px;
+} */
+.box_cancel_emoji{
+    display: flex;
+    justify-content: end;
+}
+.cancel_emoji{
+    background-color:red;
+
+
+}
+.select_box{
+    display: flex;
+    justify-content: space-between;
+}
+.top_text{
+    margin-top: 22px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+
+}
+.select{
+    width: 100px;
+    height: 65px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7px;
+}
+option{
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    padding: 15px!important;
+     }
+option:hover{
+    color: white;
+    background: turquoise;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: #ff0000;
+    color: white;
+}
+.green{
+    background-color: #003300;
+}
+.blue{
+    background-color: #0033cc;
+}
+.white{
+    color: black;
+}
+.yellow{
+    background-color: #ffff00;
+    color: black;
+}
+.pink{
+    background-color: #e50081;
+}
+.font_option{
+    background-color: brown;
+}
+.supreme{
+    z-index: 1111111111;
+    position: relative;
+}
+.btn_emoji{
+    width: 100px;
+    height: 80px;
 }
